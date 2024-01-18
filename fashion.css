@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#sidebar {
+    position: fixed;
+    width: 21%;
+    height: 100%;
+    left: -24%;
+    background-color: black;
+}
+
+#sidebar li {
+    color: white;
+    font-size: 19px;
+    padding: 30px;
+    border-bottom: 2px solid gray;
+    text-align: center;
+}
+
+.toggle-btn {
+    position: absolute;
+    left: 120%;
+    top: 15px;
+}
+
+.toggle-btn span {
+    display: block;
+    background-color: white;
+    width: 30px;
+    height: 5px;
+    margin: 3px;
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+#sidebar li a {
+    text-decoration: none;
+    color: white;
+}
+/* .logo{
+    font-size: xx-large;
+    color: aliceblue;
+    
+} */
+
+.navbar {
+    position: sticky;
+    font-size: 9vh;
+    font-family:cursive;
+    font-style:oblique;
+    border: 9px solid black;
+    background-color: hsl(0, 93%, 50%);
+    color: aliceblue;
+    text-align: center;
+}
+
+.head1 {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 9vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-align: center;
+}
+
+
+.firstpic {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bgpick {
+    align-items: center;
+    float: right;
+    width: 100%;
+}
+
+.text {
+    padding: 36px 58px;
+    position: relative;
+    font-size: 25vh;
+}
+
+.imgnav {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.top-left {
+    position: absolute;
+    top: 25vh;
+    left: 16px;
+    color: white;
+    font-size: 15vh;
+}
+
+ .multipleitems{                     /*  main header   */
+    display: inline-grid;
+    grid-template-columns:  auto auto auto auto ;
+    grid-gap: 48px;
+}
+.jeansitem{                          /* all images one class    */
+    border: 4px solid black;
+    height: 55vh;
+    width: 18vw;
+    margin-left: 2vw;
+
+}
+
+ .itemshead{                        /* header name "item" */
+    /* border: 4px solid black; */
+    background-color: white;
+    color: black;
+    margin: 10px 50px 20px 0;
+}
+ section div a img{
+    height: 48vh;
+    width: 18vw;
+}
+
+section div p{
+    text-align: center;
+}
+
+.forsubscribe{
+    background-color: black;
+    color: aliceblue;
+    height: 45vh;
+}
+
+
+.forsubscribe p{
+    font-size: 10vh;
+}
+
+.forsubscribe span{
+    color: white;
+}
+.btn{
+    background-color:  red;
+    height: 8vh;
+    width: 12vw;
+    text-align: center;
+    border: 2px solid white;
+}
+
+
+
+.w3-buttonw3-blockw3-black{
+    text-align: center;
+    position: relative;
+    left: 4vw;
+    margin-top: 4vh;
+}
+.black{              /*for input tag of email*/
+    width: 95%;
+    box-sizing: border-box;
+    height: 6vh;
+}
+
+.butt{                          /*for input tab subscribe button*/
+    position: absolute;
+    left: 38vw;
+    margin: 8vh;
+    width: 10vw;
+    background-color: red;
+    font-size: 4vh;
+}
+
+.mn-foot{               /*main div for contact  about store*/
+    background-color: rgb(157, 142, 142);
+    height: 50vh;
+}
+
+.home-div{              /*sub div for contact  */
+    display: inline-block;
+    width: 30%;
+}
+
+.home-div p{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.contact-class{         /*input tag style*/
+    width: 95%;
+    height: 4.5vh;
+}
+.s-btn{         /*send button*/
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+        height: 4.5vh;
+        position: absolute;
+        width: 29%;                 /* right: 44vw; */
+        margin-top: 3vh;
+        margin-left: 0.5vw;
+        box-sizing: border-box;
+    
+}
+
+.ab-di{                             /*about */
+    box-sizing: border-box;
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    /* margin: 9vh; */
+    display: inline-block;
+    left: 48vw;
+    text-decoration: underline;
+}
+.spanqy{                            /*queston ?*/
+    position: relative;
+    left: 10vw;
+}
+
+.mn-st{                             /*store*/
+    display: inline-block;
+    right: 23vw;
+    position: absolute;
+    right: 15vw;
+
+}
+
+.fot{                               /*footer*/
+    height: 8vh;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
